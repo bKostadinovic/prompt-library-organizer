@@ -3,6 +3,10 @@
 > **Portfolio Project by Borivoje Kostadinovic**  
 > Browser-based tool to organize, search, and export AI prompts without SaaS subscriptions
 
+## 🚀 Live Demo
+
+**Try it now:** https://prompt-library-bora.netlify.app/
+
 ---
 
 ## 🚨 The Problem
