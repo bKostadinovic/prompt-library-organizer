@@ -1,0 +1,87 @@
+Random prompts I saved from everywhere... 
+
+write me blog post about marketing
+
+Write a professional email to  - wait what was this for again?
+
+Product description prompt:
+Create a compelling product description for [PRODUCT] that highlights [FEATURES] and appeals to [TARGET AUDIENCE]. Use persuasive language and include a call-to-action. Make it SEO-friendly with keywords: [KEYWORDS]
+
+the one for social media captions - where is it??
+
+Generate 10 Instagram captions for a fitness brand. Make them motivational and include emojis. Use hashtags for reach.
+
+code prompt - makes a react component or something
+You are an expert React developer. Create a [COMPONENT TYPE] component that [FUNCTIONALITY]. Use modern React hooks and best practices. Include TypeScript types and proper error handling.
+
+Cold email template - saved from that course
+Write a cold outreach email for B2B SaaS sales. Keep it under 100 words. Personalize with [COMPANY NAME] and [PAIN POINT]. Include clear CTA.
+
+SEO blog outline 
+Create a comprehensive blog outline for "[TOPIC]" targeting the keyword "[KEYWORD]". Include H2 and H3 headings, key points for each section, and suggested word count. Optimize for search intent.
+
+twitter thread idea - viral style
+Generate a 10-tweet thread about [TOPIC] that educates and entertains. Start with a hook, provide value in each tweet, and end with a call-to-action. Use simple language.
+
+Landing page copy
+Write conversion-focused landing page copy for [PRODUCT/SERVICE]. Include: Hero headline, subheadline, 3 benefit bullets, social proof section, and CTA. Focus on solving [PAIN POINT].
+
+Video script - youtube
+Create a YouTube video script for "[TITLE]" (10-15 minutes). Include: Hook (first 30 seconds), introduction, main content with 3-5 key points, examples, and outro with CTA. Write in conversational tone.
+
+newsletter intro - weekly
+Write an engaging newsletter introduction for [TOPIC]. Make it personal, reference current events if relevant, and smoothly transition into main content. Keep under 150 words.
+
+case study - client results
+Write a case study showcasing how [CLIENT] achieved [RESULTS] using [SOLUTION]. Include: Challenge, Solution, Implementation, Results (with specific metrics), and Client testimonial. Make it story-driven.
+
+FAQ generator
+Generate 10 frequently asked questions and detailed answers for [PRODUCT/SERVICE]. Cover: pricing, features, implementation, support, and common objections. Write answers in friendly, helpful tone.
+
+something about content repurposing...
+
+Headline formulas - i think these were good
+Generate 20 headline variations for [TOPIC] using proven formulas: How-to, Listicle, Question, Benefit-driven, Curiosity gap, Fear-based, Social proof, Contrarian. Make them click-worthy.
+
+Persona creator
+Create a detailed customer persona for [BUSINESS TYPE]. Include: Demographics, Goals, Challenges, Pain points, Buying behavior, Preferred channels, and Objections. Make it realistic and actionable.
+
+competitor analysis - from that AI tool
+Analyze competitor [COMPETITOR NAME] and identify: Strengths, Weaknesses, Opportunities we can exploit, Threats they pose, and Gaps in their offering. Provide strategic recommendations.
+
+sales objection handler
+Provide responses to common sales objections for [PRODUCT]: "Too expensive", "Need to think about it", "Using competitor", "Bad timing", "Not sure it works". Make responses consultative, not pushy.
+
+webinar script outline
+Create a 45-minute webinar script structure for "[TOPIC]". Include: Welcome & intro (5 min), Problem agitation (10 min), Solution presentation (15 min), Demo/case study (10 min), Q&A setup (5 min). Add speaker notes.
+
+WHERE IS THE PROMPT FOR CLIENT ONBOARDING???
+
+Brand voice guide prompt
+Define a brand voice for [COMPANY] in [INDUSTRY]. Describe: Tone (3 adjectives), Language style, Do's and Don'ts, Example phrases, Words to avoid, and Voice in different scenarios (social, email, ads, support).
+
+meeting agenda - that template one
+Generate a structured meeting agenda for [MEETING TYPE]. Include: Objectives, Time allocations, Discussion points, Decision items, Action items, and Participants. Keep it focused and actionable.
+
+Crisis communication 
+Draft a crisis communication statement for [SITUATION]. Address: What happened, What we're doing, Next steps, and Contact for concerns. Tone: Transparent, empathetic, and solution-focused. Keep under 200 words.
+
+survey questions - customer feedback one
+Create 15 survey questions to gather feedback on [PRODUCT/SERVICE]. Include: Satisfaction rating, Feature usage, Pain points, Improvement suggestions, and NPS score. Mix multiple choice and open-ended.
+
+google ads copy - those character limits are annoying
+Write Google Search ad copy for [KEYWORD]. Headlines (30 chars max, 3 variations), Descriptions (90 chars max, 2 variations). Focus on: Unique value, Benefits, CTA. Include ad extensions ideas.
+
+onboarding email sequence - 5 days i think
+Create a 5-email onboarding sequence for new [PRODUCT] users. Day 1: Welcome & quick win. Day 2: Key features. Day 3: Best practices. Day 4: Success story. Day 5: Upgrade prompt. Each under 200 words.
+
+also need to add that automation prompt somewhere...
+
+Job description writer
+Write a compelling job description for [JOB TITLE]. Include: Company overview, Role summary, Key responsibilities (5-7), Requirements (must-have & nice-to-have), Benefits, and Application instructions. Make it appealing to top talent.
+
+Press release
+Write a press release for [ANNOUNCEMENT]. Include: Attention-grabbing headline, Dateline, Lead paragraph (who, what, when, where, why), Supporting details, Quote from executive, Company boilerplate, and Media contact. AP style.
+
+Proposal template - was this for freelance or agency?
+Create a business proposal for [SERVICE] to [CLIENT]. Sections: Executive summary, Client challenges, Proposed solution, Scope of work, Timeline, Investment, Terms, and Next steps. Professional and persuasive tone.
