@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Library Organizer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>📚 Prompt Library</h1>
+                <p class="subtitle">Organize, search, and manage your AI prompts</p>
+            </div>
+            <div class="header-actions">
+                <button id="exportBtn" class="btn btn-secondary">
+                    📥 Export
+                </button>
+                <button id="addPromptBtn" class="btn btn-primary">
+                    ➕ Add Prompt
+                </button>
+            </div>
+        </header>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-label">Total Prompts</span>
+                <span class="stat-value" id="totalPrompts">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Categories</span>
+                <span class="stat-value" id="totalCategories">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Favorites</span>
+                <span class="stat-value" id="totalFavorites">0</span>
+            </div>
+        </div>
+
+        <!-- Search and Filter -->
+        <div class="controls">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="🔍 Search prompts by title, content, or tags..."
+                >
+            </div>
+            
+            <div class="filters">
+                <select id="categoryFilter" class="filter-select">
+                    <option value="all">All Categories</option>
+                </select>
+                
+                <select id="sortFilter" class="filter-select">
+                    <option value="newest">Newest First</option>
+                    <option value="oldest">Oldest First</option>
+                    <option value="lastUsed">Recently Used</option>
+                    <option value="title">Title (A-Z)</option>
+                </select>
+                
+                <button id="showFavoritesBtn" class="btn btn-outline">
+                    ⭐ Favorites Only
+                </button>
+                
+                <button id="resetFiltersBtn" class="btn btn-outline">
+                    🔄 Reset
+                </button>
+            </div>
+        </div>
+
+        <!-- Prompts Grid -->
+        <div id="promptsContainer" class="prompts-grid">
+            <!-- Prompts will be dynamically inserted here -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="empty-state" style="display: none;">
+            <div class="empty-icon">📝</div>
+            <h3>No prompts found</h3>
+            <p>Try adjusting your filters or add your first prompt!</p>
+        </div>
+    </div>
+
+    <!-- Add/Edit Modal -->
+    <div id="promptModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Add New Prompt</h2>
+                <button class="modal-close" id="closeModal">&times;</button>
+            </div>
+            
+            <form id="promptForm" class="modal-body">
+                <div class="form-group">
+                    <label for="promptTitle">Title *</label>
+                    <input 
+                        type="text" 
+                        id="promptTitle" 
+                        placeholder="E.g., SEO Blog Post Outline"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="promptText">Prompt *</label>
+                    <textarea 
+                        id="promptText" 
+                        rows="6" 
+                        placeholder="Enter your prompt text here... Use [BRACKETS] for variables."
+                        required
+                    ></textarea>
+                    <span class="char-count" id="charCount">0 characters</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="promptCategory">Category *</label>
+                    <input 
+                        type="text" 
+                        id="promptCategory" 
+                        list="categoryList"
+                        placeholder="E.g., Content Creation, Coding, Marketing"
+                        required
+                    >
+                    <datalist id="categoryList">
+                        <option value="Content Creation">
+                        <option value="Coding">
+                        <option value="Social Media">
+                        <option value="Sales & Marketing">
+                        <option value="Copywriting">
+                        <option value="Strategy">
+                        <option value="E-commerce">
+                        <option value="Email Marketing">
+                    </datalist>
+                </div>
+
+                <div class="form-group">
+                    <label for="promptTags">Tags (comma-separated)</label>
+                    <input 
+                        type="text" 
+                        id="promptTags" 
+                        placeholder="E.g., SEO, blogging, content"
+                    >
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" id="cancelBtn" class="btn btn-secondary">
+                        Cancel
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                        <span id="saveButtonText">Save Prompt</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Export Modal -->
+    <div id="exportModal" class="modal" style="display: none;">
+        <div class="modal-content modal-small">
+            <div class="modal-header">
+                <h2>Export Prompts</h2>
+                <button class="modal-close" id="closeExportModal">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <p>Choose export format:</p>
+                
+                <div class="export-options">
+                    <button id="exportJsonBtn" class="btn btn-primary btn-block">
+                        📄 Export as JSON
+                    </button>
+                    <button id="exportMarkdownBtn" class="btn btn-primary btn-block">
+                        📝 Export as Markdown
+                    </button>
+                </div>
+
+                <div class="export-info">
+                    <p><strong>JSON:</strong> Perfect for backup and re-importing</p>
+                    <p><strong>Markdown:</strong> Human-readable format for sharing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast" style="display: none;"></div>
+
+    <!-- Load Scripts -->
+    <script src="js/storage.js"></script>
+    <script src="js/prompt-manager.js"></script>
+    <script src="js/search-filter.js"></script>
+    <script src="js/export-handler.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "SEO Blog Post Outline",
+    "prompt": "Create a comprehensive blog outline for \"[TOPIC]\" targeting the keyword \"[KEYWORD]\". Include H2 and H3 headings, key points for each section, and suggested word count. Optimize for search intent.",
+    "category": "Content Creation",
+    "tags": ["SEO", "blogging", "content strategy"],
+    "isFavorite": true,
+    "createdAt": "2024-01-15T10:30:00Z",
+    "lastUsed": "2024-01-28T14:20:00Z"
+  },
+  {
+    "id": 2,
+    "title": "React Component Generator",
+    "prompt": "You are an expert React developer. Create a [COMPONENT TYPE] component that [FUNCTIONALITY]. Use modern React hooks and best practices. Include TypeScript types and proper error handling.",
+    "category": "Coding",
+    "tags": ["React", "TypeScript", "frontend"],
+    "isFavorite": false,
+    "createdAt": "2024-01-10T09:15:00Z",
+    "lastUsed": "2024-01-25T16:45:00Z"
+  },
+  {
+    "id": 3,
+    "title": "B2B Cold Email Template",
+    "prompt": "Write a cold outreach email for B2B SaaS sales. Keep it under 100 words. Personalize with [COMPANY NAME] and [PAIN POINT]. Include clear CTA.",
+    "category": "Sales & Marketing",
+    "tags": ["email", "B2B", "sales"],
+    "isFavorite": true,
+    "createdAt": "2024-01-12T11:00:00Z",
+    "lastUsed": "2024-01-29T09:30:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Instagram Caption Generator",
+    "prompt": "Generate 10 Instagram captions for a [BRAND TYPE] brand. Make them [TONE]. Include emojis and relevant hashtags for maximum reach.",
+    "category": "Social Media",
+    "tags": ["Instagram", "social media", "captions"],
+    "isFavorite": false,
+    "createdAt": "2024-01-08T14:20:00Z",
+    "lastUsed": "2024-01-20T10:15:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Landing Page Conversion Copy",
+    "prompt": "Write conversion-focused landing page copy for [PRODUCT/SERVICE]. Include: Hero headline, subheadline, 3 benefit bullets, social proof section, and CTA. Focus on solving [PAIN POINT].",
+    "category": "Copywriting",
+    "tags": ["landing page", "conversion", "copywriting"],
+    "isFavorite": true,
+    "createdAt": "2024-01-05T13:45:00Z",
+    "lastUsed": "2024-01-27T15:00:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Customer Persona Builder",
+    "prompt": "Create a detailed customer persona for [BUSINESS TYPE]. Include: Demographics, Goals, Challenges, Pain points, Buying behavior, Preferred channels, and Objections. Make it realistic and actionable.",
+    "category": "Strategy",
+    "tags": ["persona", "marketing", "strategy"],
+    "isFavorite": false,
+    "createdAt": "2024-01-18T08:30:00Z",
+    "lastUsed": "2024-01-26T11:00:00Z"
+  },
+  {
+    "id": 7,
+    "title": "YouTube Video Script",
+    "prompt": "Create a YouTube video script for \"[TITLE]\" (10-15 minutes). Include: Hook (first 30 seconds), introduction, main content with 3-5 key points, examples, and outro with CTA. Write in conversational tone.",
+    "category": "Content Creation",
+    "tags": ["YouTube", "video", "script"],
+    "isFavorite": false,
+    "createdAt": "2024-01-14T16:00:00Z",
+    "lastUsed": "2024-01-24T13:30:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Twitter Thread Generator",
+    "prompt": "Generate a 10-tweet thread about [TOPIC] that educates and entertains. Start with a hook, provide value in each tweet, and end with a call-to-action. Use simple language.",
+    "category": "Social Media",
+    "tags": ["Twitter", "thread", "engagement"],
+    "isFavorite": true,
+    "createdAt": "2024-01-11T12:00:00Z",
+    "lastUsed": "2024-01-28T17:00:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Product Description Writer",
+    "prompt": "Create a compelling product description for [PRODUCT] that highlights [FEATURES] and appeals to [TARGET AUDIENCE]. Use persuasive language and include a call-to-action. Make it SEO-friendly with keywords: [KEYWORDS]",
+    "category": "E-commerce",
+    "tags": ["product", "e-commerce", "SEO"],
+    "isFavorite": false,
+    "createdAt": "2024-01-07T10:45:00Z",
+    "lastUsed": "2024-01-22T14:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Email Newsletter Intro",
+    "prompt": "Write an engaging newsletter introduction for [TOPIC]. Make it personal, reference current events if relevant, and smoothly transition into main content. Keep under 150 words.",
+    "category": "Email Marketing",
+    "tags": ["newsletter", "email", "engagement"],
+    "isFavorite": false,
+    "createdAt": "2024-01-09T15:30:00Z",
+    "lastUsed": "2024-01-23T09:00:00Z"
+  }
+]
